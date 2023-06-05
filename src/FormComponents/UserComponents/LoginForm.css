@@ -1,0 +1,82 @@
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.label-container {
+  background-color: #ffffff;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid #ff0b37;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  padding: 5px;
+  border-radius: 16px;
+  min-height: 250px;
+  background-color: aquamarine;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.logo-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:bisque;
+}
+
+@media screen and (min-width: 768px) {
+  .view-container {
+    max-width: 450px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 16px rgba(14, 17, 20, 0.16);
+    padding: 48px 64px 48px 64px;
+  }
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #050c04;
+}
+
+.submit-button {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  background-color: #ea580c;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.text-color {
+  font-family: 'Open Sans';
+  color: #ea580c;
+  font-weight: bold;
+  text-align: center;
+
+}
+

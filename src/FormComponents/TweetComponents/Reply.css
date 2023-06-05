@@ -1,0 +1,28 @@
+.reply {
+    border: solid #000;
+    border-width: 3.5mm;
+    border-radius: 12px;
+    margin: 10px 0px;
+    display: block;
+    background-color:rgb(240, 255, 245);
+}
+
+.reply-control1 {
+    margin-left: 1mm;
+    font-size: medium;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+
+.reply-control2 {
+    margin-left: 1mm;
+    font-size: medium;
+    font-style: italic;
+    font-weight: lighter;
+    padding-right: 1cm;
+}
+
+.reply-control3 {
+    margin-left: 1mm;
+    font-size: large;
+}
